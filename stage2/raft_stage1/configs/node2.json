@@ -1,0 +1,15 @@
+{
+  "id": "node2",
+  "host": "127.0.0.1",
+  "port": 8102,
+  "peers": {
+    "node1": "http://127.0.0.1:8101",
+    "node3": "http://127.0.0.1:8103"
+  },
+  "data_dir": "../../.raft-data/node2",
+  "election_timeout_min": 1.5,
+  "election_timeout_max": 3.0,
+  "heartbeat_interval": 0.5,
+  "rpc_timeout": 0.7
+}
+
